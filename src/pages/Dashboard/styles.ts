@@ -51,14 +51,14 @@ export const Repositories = styled.div`
     display: flex;
     align-items: center;
     transition: transform 0.2s;
-  }
 
-  & + a {
-    margin-top: 16px;
-  }
+    & + a {
+      margin-top: 16px;
+    }
 
-  &:hover {
-    transform: translateX(10px);
+    &:hover {
+      transform: translateX(10px);
+    }
   }
 
   img {
